@@ -35,8 +35,6 @@ fi
   printf "                                        INSTALADOR 1.0\n"
   printf "\n\n"
 
-}
-
 # Função para manipular erros e encerrar o script
 trata_erro() {
   printf "${RED}Erro encontrado na etapa $1. Encerrando o script.${WHITE}\n"
